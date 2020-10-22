@@ -5,6 +5,13 @@
 ### Problem: 
 You have **Image** class with **Filter** interface and you got an external library which include **Caramel** filter and you want to filter your image using this filter but **Caramel** doesn't implement your interface.
 
+    public class Main {
+        public static void main(String[] args) {
+            ImageView imageView = new ImageView(new Image());
+            imageView.apply(new Caramel()); //you can't do that compilation error
+        }
+    }
+    
     public class Image {
 
     }
