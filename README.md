@@ -1,7 +1,7 @@
 # Adapter Design Pattern (Java)
 
 **Adapter** convert interface of a class into another interface that clients expect.
-![](https://github.com/shamy1st/design-pattern-adapter-java/blob/main/adapter-uml.png)
+![](https://github.com/shamy1st/design-pattern-adapter-java/blob/main/uml.png)
 ### Problem: 
 You have **Image** class with **Filter** interface and you got an external library which include **Caramel** filter and you want to filter your image using this filter but **Caramel** doesn't implement your interface.
 
@@ -49,4 +49,4 @@ You have **Image** class with **Filter** interface and you got an external libra
         }
     }
 ### Solution:
-![](https://github.com/shamy1st/design-pattern-adapter-java/blob/main/adapter-solution-uml.png)
+![](https://github.com/shamy1st/design-pattern-adapter-java/blob/main/uml-solution.png)
