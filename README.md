@@ -49,4 +49,4 @@ You have **Image** class with **Filter** interface and you got an external libra
         }
     }
 ### Solution:
-![](https://github.com/shamy1st/design-pattern-adapter-java/blob/main/uml-solution.png)
+![](https://github.com/shamy1st/design-pattern-adapter-java/blob/main/uml-solutions.png)
